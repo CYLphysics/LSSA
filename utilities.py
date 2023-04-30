@@ -40,7 +40,7 @@ from qiskit.ignis.mitigation.measurement import (complete_meas_cal, tensored_mea
 IBMQ.load_account()
 IBMQ.providers()  
 
-provider = IBMQ.get_provider(hub='ibm-q-hub-ntu', group='ntu-internal', project='default')
+provider = IBMQ.get_provider(hub='ibm-q', group='open', project='main')
 
 # simulator
 #ibmq_casablanca_sim = QasmSimulator.from_backend(provider.get_backend('ibmq_casablanca')) 
